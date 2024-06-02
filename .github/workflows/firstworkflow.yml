@@ -1,11 +1,11 @@
 on:
   push:
+    branches: main
   
 jobs:
-  print-username:
-    runs-on: ubuntu-latest
+     runs-on: ubuntu-latest
 
-    steps:
+steps:
       - name: Print the input name to STDOUT
       - run: echo hello world!
       - run: node --version
