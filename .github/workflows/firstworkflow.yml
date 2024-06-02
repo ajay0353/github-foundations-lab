@@ -1,0 +1,12 @@
+on:
+  push:
+  
+jobs:
+  print-username:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print the input name to STDOUT
+      - run: echo hello world!
+      - run: node --version
+      - run: npm --version
